@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Exchange\Rates;
 
 use simplehtmldom\HtmlWeb;
 

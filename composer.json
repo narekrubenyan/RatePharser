@@ -1,0 +1,21 @@
+{
+    "name": "exchange/rates",
+    "description": "Simple PHP parser for USD exchange rates from rate.am",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Exchange\\Rates\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nitro",
+            "email": "narek.rubenyan@gmail.com"
+        }
+    ],
+    "require": {
+        "simplehtmldom/simplehtmldom": "dev-master",
+        "symfony/var-dumper": "^7.3"
+    }
+}
